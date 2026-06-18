@@ -44,7 +44,7 @@ footer {
     flex: 1; /* This column takes up one share of space */
     max-width: 250px;
     color: black;
-    background-color: #9883e5; /* Light background for visibility */
+    background-color: #f9e784; /* Light background for visibility */
     padding: 10px 10px 0px 10px; /* t r b l Space between rows */
     margin: 20px 10px 20px 20px;
     border-radius: 5px;
@@ -57,7 +57,8 @@ footer {
 
 .links-column a {
     text-decoration: none; /* Remove underline from links */
-    color: #bdfffd; /* Link color */
+    color: #007BFF; /* Link color */
+; /* Link color */
 }
 
 .data-column {
@@ -76,6 +77,74 @@ footer {
     border-color:black;
     box-shadow: 5px 5px 5px #522b47;
 }
+
+.data-row:nth-child(6n+1) {
+    background-color: #bdfffd;
+}
+
+.data-row:nth-child(6n+2) {
+    background-color: #e0f0ff;
+}
+
+.data-row:nth-child(6n+3) {
+    background-color: #e0c5ff;
+}
+
+.data-row:nth-child(6n+4) {
+    background-color: #d4abef;
+}
+
+.data-row:nth-child(6n+5) {
+    background-color: #dfd5ff;
+}
+
+.data-row:nth-child(6n+6) {
+    background-color: #d0e5ff;
+}
+
+/*
+.data-row:nth-child(4n+1) {
+    background-color: #bdfffd;
+}
+
+.data-row:nth-child(4n+2) {
+    background-color: #a8e7f5;
+}
+
+.data-row:nth-child(4n+3) {
+    background-color: #84ceeb;
+}
+
+.data-row:nth-child(4n+4) {
+    background-color: #a8e7f5;
+}
+
+
+.data-row:nth-child(6n+1) {
+    background-color: #bdfffd;
+}
+
+.data-row:nth-child(6n+2) {
+    background-color: #c9e8f3;
+}
+
+.data-row:nth-child(6n+3) {
+    background-color: #d5d1e9;
+}
+
+.data-row:nth-child(6n+4) {
+    background-color: #ffa3a5;
+}
+
+.data-row:nth-child(6n+5) {
+    background-color: #e8d7d9;
+}
+
+.data-row:nth-child(6n+6) {
+    background-color: #c9e8f3;
+}
+*/
+
 
 .pdf {
         width: 100%;
