@@ -102,48 +102,45 @@ footer {
     background-color: #d0e5ff;
 }
 
-/*
-.data-row:nth-child(4n+1) {
-    background-color: #bdfffd;
+button {
+  border: 2px solid black;  
+  border-radius: 5px;
+  background-color: #bdfffd;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #522b47;
 }
 
-.data-row:nth-child(4n+2) {
-    background-color: #a8e7f5;
+.links-column button {
+  border: 2px solid black; 
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #522b47;
 }
 
-.data-row:nth-child(4n+3) {
-    background-color: #84ceeb;
-}
-
-.data-row:nth-child(4n+4) {
-    background-color: #a8e7f5;
-}
 
 
-.data-row:nth-child(6n+1) {
-    background-color: #bdfffd;
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px; /* space between buttons */
 }
 
-.data-row:nth-child(6n+2) {
-    background-color: #c9e8f3;
+.no-bullets {
+    list-style: none;
 }
-
-.data-row:nth-child(6n+3) {
-    background-color: #d5d1e9;
-}
-
-.data-row:nth-child(6n+4) {
-    background-color: #ffa3a5;
-}
-
-.data-row:nth-child(6n+5) {
-    background-color: #e8d7d9;
-}
-
-.data-row:nth-child(6n+6) {
-    background-color: #c9e8f3;
-}
-*/
 
 
 .pdf {
