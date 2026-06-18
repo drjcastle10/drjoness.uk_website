@@ -182,18 +182,19 @@ a:hover {
     }
 
     .links-column {
-        /*flex: 0; /* This column takes up one share of space */
-        background-color: #f0f0f0; /* Light background for visibility */
+        flex: 0; /* This column takes up one share of space */
+        background-color: #f9e784; /* Light background for visibility */
         padding: 10px 10px 10px 10px; /* t r b l Space between rows */
         margin: 20px 20px 20px 20px;
         border-radius: 5px;
         width: 100%;
-        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+        border-style: solid;
+        border-color:black;
+        box-shadow: 5px 5px 5px #522b47;
         /*border-right: 2px solid #ccc; /* Optional border between columns */
     }
-
     .data-column {
-        /*flex: 0; /* This column takes up three shares of space */
+        flex: 0; /* This column takes up three shares of space */
         margin: 0px 20px 20px 20px;
         width: 100%;
         /*padding: 20px; /* Add some padding */
@@ -201,10 +202,13 @@ a:hover {
 
     .data-row {
         padding: 10px 10px 10px 10px; /* t r b l Space between rows */
-        background-color: #f0f0f0;
+        background-color: #bdfffd;
         border-bottom: 1px solid #ddd; /* Light border between rows */
         margin: 20px 0px 0px 0px;
         border-radius: 5px;
-        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+        border-style: solid;
+        border-color:black;
+        box-shadow: 5px 5px 5px #522b47;
     }
+
 }
