@@ -8,22 +8,17 @@ body {
     padding: 0;
     min-height: 100vh;
     position: relative;
-    background-color: #f0f0f0;
+    background-color: #8daa9d;
 }
 .page-container {
     position:relative;
     min-height: 100;
 }
 header, footer {
-    background: #f9e784;
-    color: black;
+    background: #522b47;
+    color: #f0f0f0;
     padding: 20px;
     text-align: center;
-}
-
-header {
-    border-bottom: solid black;  /* */
-    box-shadow: 0px 5px 5px #522b47;
 }
 
 footer {
@@ -32,7 +27,6 @@ footer {
     height: 5rem;
     bottom: 0;
     width: 100%;
-    border-top: solid black;
 }
 
 .container {
@@ -43,21 +37,14 @@ footer {
 .links-column {
     flex: 1; /* This column takes up one share of space */
     max-width: 250px;
-    color: black;
-    background-color: #9883e5; /* Light background for visibility */
+    background-color: #f0f0f0; /* Light background for visibility */
     padding: 10px 10px 0px 10px; /* t r b l Space between rows */
     margin: 20px 10px 20px 20px;
     border-radius: 5px;
     border-style: solid;
-    border-color:black;
+    border-color:#522b47;
     box-shadow: 5px 5px 5px #522b47;
-    height: fit-content;
     /*border-right: 2px solid #ccc; /* Optional border between columns */
-}
-
-.links-column a {
-    text-decoration: none; /* Remove underline from links */
-    color: #bdfffd; /* Link color */
 }
 
 .data-column {
@@ -68,12 +55,10 @@ footer {
 
 .data-row {
     padding: 10px 10px 10px 10px; /* t r b l Space between rows */
-    background-color: #bdfffd;
-    /*border-bottom: 1px solid #ddd; /* Light border between rows */
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd; /* Light border between rows */
     margin: 20px 0px 20px 10px;
     border-radius: 5px;
-    border-style: solid;
-    border-color:black;
     box-shadow: 5px 5px 5px #522b47;
 }
 
