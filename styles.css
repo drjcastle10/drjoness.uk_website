@@ -153,12 +153,14 @@ a {
     color: #007BFF; /* Link color */
 }
 
+
 .blog-link {
     display: block;
     text-decoration: none;
     color: inherit;
+    width: 100%;  /* Add this */
+    min-height: 100%;  /* Add this */
 }
-
 
 
 a:hover {
