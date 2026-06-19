@@ -5,6 +5,7 @@
                     <a href="blog.html"><button>My Blog</button></a>
                     <a href="CV.html"><button>CV</button></a>
                     <a href="contact.html"><button>Contact</button></a>
+                    <a href="homelab.html"><button>Homelab</button></a>
                 </div>
                 <h2>About Me</h2>
                 <p>Hello! I am a university student studying Mathematics and Computer Science. I like reading, competing in CTFs, and video games.</p>
