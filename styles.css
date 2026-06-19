@@ -63,7 +63,7 @@ footer {
 
 #links-column-container {
     opacity: 0;
-    transition: opacity 0.3s ease-in;
+    transition: opacity 0.4s ease-in;
 }
 
 #links-column-container.loaded {
