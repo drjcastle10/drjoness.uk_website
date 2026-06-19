@@ -14,11 +14,7 @@
         </header>
         <div class="container">
             <div id="links-column-container"></div>
-            <script>
-                fetch('/includes/links-column.html')
-                    .then(response => response.text())
-                    .then(data => document.getElementById('links-column-container').innerHTML = data);
-            </script>
+            
 
             <div class="data-column">
                 <div class="data-row">
@@ -57,5 +53,14 @@
         <p>&copy; 2026 D R Jones. All rights reserved.</p>
         </footer>
     </div>
+    <script>
+        fetch('/includes/links-column.html')
+            .then(response => response.text())
+            .then(data => {
+                const container = document.getElementById('links-column-container');
+                container.innerHTML = data;
+                container.classList.add('loaded');
+            });
+    </script>
 </body>
 </html>

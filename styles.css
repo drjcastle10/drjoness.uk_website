@@ -61,6 +61,15 @@ footer {
 ; /* Link color */
 }
 
+#links-column-container {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+#links-column-container.loaded {
+    opacity: 1;
+}
+
 .data-column {
     flex: 3; /* This column takes up three shares of space */
     margin: 0px 20px 0px 0px;
