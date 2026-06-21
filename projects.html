@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>D R Jones: Projects</title>
+    
+</head>
+<body>
+    <header> 
+        <h1>D R Jones</h1>
+        <p>Third Year Student at the University of Birmingham</p>
+    </header>
+    <div class="container">
+        <div id="links-column-container"></div>
+
+        <div class="data-column">
+            <div class="data-row">
+                    <h2>Projects</h2>
+                    <p>Here are some projects I've created either personally or as a joint venture. I will be adding more project links here as I complete new projects or get old ones up to my current standards.</p>
+            </div>
+            <a href="https://trucky.bluka.uk/index.html" class="data-row blog-link">
+                <h2>TruckyChain</h2>
+                <p>A vehicle tracking and order fulfillment platform built at the Frontier Tech Hackathon w/ Solana. Trucky Chain is a blockchain based vehicle tracking and order management software, that allows for secure positional tracking of vehicles and the the orders they are transporting.</p>
+            </a>
+
+        </div>
+    </div>
+
+    <footer>
+    <p>&copy; 2026 D R Jones. All rights reserved.</p>
+    </footer>
+    <script>
+        fetch('/includes/links-column.html')
+            .then(response => response.text())
+            .then(data => {
+                const container = document.getElementById('links-column-container');
+                container.innerHTML = data;
+                container.classList.add('loaded');
+            });
+    </script>
+</body>
+</html>
