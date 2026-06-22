@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>D R Jones: Projects</title>
+    
+</head>
+<body>
+    <header> 
+        <h1>D R Jones</h1>
+        <p>Third Year Student at the University of Birmingham</p>
+    </header>
+    <div class="container">
+        <div id="links-column-container"></div>
+
+        <div class="data-column">
+
+            <a href="https://github.com/drjcastle10/OOP-Assignments" class="data-row blog-link">
+                <h2>My OOP Assignments</h2>
+                <p>Here are the two assignments I made for the Object Oriented Programming (OOP) module in my first year of university, the first assignment was worth 30% of the grade, and the second was worth 50% of the grade - with a quiz worth 20% of the grade to round the marks off. I scored 88.19% overall in the module, which was a First class result.</p>
+            </a>
+            
+            <a href="https://github.com/drjcastle10/OOP-Assignments/tree/main/Assignment1" class="data-row blog-link">
+                <h2>OOP Assignment 1</h2>
+                <p>This is the GitHub repository folder for the first assignment, where I made a text based game in Java that involved navigating a small building dedicated to watch collecting.</p>
+            </a>
+
+            <a href="https://github.com/drjcastle10/OOP-Assignments/tree/main/Assignment2" class="data-row blog-link">
+                <h2>OOP Assignment 2</h2>
+                <p>This is the GitHub repository folder for the second assignment, where I made a text based game engine in Java that could read in a txt file and generate a text based game from it's contents - I used a very similar format to the first game except with a few extra features.</p>
+            </a>
+
+
+        </div>
+    </div>
+
+    <footer>
+    <p>&copy; 2026 D R Jones. All rights reserved.</p>
+    </footer>
+    <script>
+        fetch('/includes/links-column-foldered.html')
+            .then(response => response.text())
+            .then(data => {
+                const container = document.getElementById('links-column-container');
+                container.innerHTML = data;
+                container.classList.add('loaded');
+            });
+    </script>
+</body>
+</html>
